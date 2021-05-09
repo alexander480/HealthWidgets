@@ -7,7 +7,25 @@
 		<key>HealthWidgets.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Sleep WidgetExtension.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0A805D7625D90931005AA697</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0A805D8E25D90A1D005AA697</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

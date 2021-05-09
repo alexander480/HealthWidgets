@@ -11,7 +11,46 @@
 		0A805D7D25D90931005AA697 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A805D7C25D90931005AA697 /* ContentView.swift */; };
 		0A805D7F25D90933005AA697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A805D7E25D90933005AA697 /* Assets.xcassets */; };
 		0A805D8225D90933005AA697 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A805D8125D90933005AA697 /* Preview Assets.xcassets */; };
+		0A805D9225D90A1D005AA697 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A805D9125D90A1D005AA697 /* WidgetKit.framework */; };
+		0A805D9425D90A1D005AA697 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A805D9325D90A1D005AA697 /* SwiftUI.framework */; };
+		0A805D9725D90A1D005AA697 /* SleepWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A805D9625D90A1D005AA697 /* SleepWidget.swift */; };
+		0A805D9A25D90A20005AA697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A805D9925D90A20005AA697 /* Assets.xcassets */; };
+		0A805D9C25D90A20005AA697 /* SleepWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 0A805D9825D90A1D005AA697 /* SleepWidget.intentdefinition */; };
+		0A805D9D25D90A20005AA697 /* SleepWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 0A805D9825D90A1D005AA697 /* SleepWidget.intentdefinition */; };
+		0A805DA025D90A20005AA697 /* SleepWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0A805D8F25D90A1D005AA697 /* SleepWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0AA0A8F725DB68DD004FD9EF /* SleepDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA0A8F625DB68DD004FD9EF /* SleepDataModel.swift */; };
+		0AA0A8F825DB68DD004FD9EF /* SleepDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA0A8F625DB68DD004FD9EF /* SleepDataModel.swift */; };
+		0AA0A90D25DB8375004FD9EF /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA0A90C25DB8375004FD9EF /* HealthKit.framework */; };
+		0AA0A91125DB8402004FD9EF /* SleepHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA0A91025DB8402004FD9EF /* SleepHelper.swift */; };
+		0AA0A91225DB8402004FD9EF /* SleepHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA0A91025DB8402004FD9EF /* SleepHelper.swift */; };
+		0AA0A91825DB8C6E004FD9EF /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA0A90C25DB8375004FD9EF /* HealthKit.framework */; };
+		0AA0A91E25DBA712004FD9EF /* CircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA0A91D25DBA711004FD9EF /* CircularProgress.swift */; };
+		0AA0A91F25DBA712004FD9EF /* CircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA0A91D25DBA711004FD9EF /* CircularProgress.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A805D9E25D90A20005AA697 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A805D6F25D90931005AA697 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A805D8E25D90A1D005AA697;
+			remoteInfo = "Sleep WidgetExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0A805DA125D90A20005AA697 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0A805DA025D90A20005AA697 /* SleepWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0A805D7725D90931005AA697 /* HealthWidgets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthWidgets.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,6 +59,19 @@
 		0A805D7E25D90933005AA697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A805D8125D90933005AA697 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0A805D8325D90933005AA697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A805D8F25D90A1D005AA697 /* SleepWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SleepWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A805D9125D90A1D005AA697 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		0A805D9325D90A1D005AA697 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		0A805D9625D90A1D005AA697 /* SleepWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepWidget.swift; sourceTree = "<group>"; };
+		0A805D9825D90A1D005AA697 /* SleepWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = SleepWidget.intentdefinition; sourceTree = "<group>"; };
+		0A805D9925D90A20005AA697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A805D9B25D90A20005AA697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AA0A8F625DB68DD004FD9EF /* SleepDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepDataModel.swift; sourceTree = "<group>"; };
+		0AA0A90B25DB8375004FD9EF /* SleepWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SleepWidgetExtension.entitlements; sourceTree = "<group>"; };
+		0AA0A90C25DB8375004FD9EF /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		0AA0A91025DB8402004FD9EF /* SleepHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepHelper.swift; sourceTree = "<group>"; };
+		0AA0A91725DB8C6E004FD9EF /* HealthWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HealthWidgets.entitlements; sourceTree = "<group>"; };
+		0AA0A91D25DBA711004FD9EF /* CircularProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +79,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AA0A91825DB8C6E004FD9EF /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A805D8C25D90A1D005AA697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA0A90D25DB8375004FD9EF /* HealthKit.framework in Frameworks */,
+				0A805D9425D90A1D005AA697 /* SwiftUI.framework in Frameworks */,
+				0A805D9225D90A1D005AA697 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,7 +99,13 @@
 		0A805D6E25D90931005AA697 = {
 			isa = PBXGroup;
 			children = (
+				0AA0A90B25DB8375004FD9EF /* SleepWidgetExtension.entitlements */,
 				0A805D7925D90931005AA697 /* HealthWidgets */,
+				0A805D9525D90A1D005AA697 /* Sleep Widget */,
+				0AA0A91D25DBA711004FD9EF /* CircularProgress.swift */,
+				0AA0A8F625DB68DD004FD9EF /* SleepDataModel.swift */,
+				0AA0A91025DB8402004FD9EF /* SleepHelper.swift */,
+				0A805D9025D90A1D005AA697 /* Frameworks */,
 				0A805D7825D90931005AA697 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				0A805D7725D90931005AA697 /* HealthWidgets.app */,
+				0A805D8F25D90A1D005AA697 /* SleepWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,6 +122,7 @@
 		0A805D7925D90931005AA697 /* HealthWidgets */ = {
 			isa = PBXGroup;
 			children = (
+				0AA0A91725DB8C6E004FD9EF /* HealthWidgets.entitlements */,
 				0A805D7A25D90931005AA697 /* HealthWidgetsApp.swift */,
 				0A805D7C25D90931005AA697 /* ContentView.swift */,
 				0A805D7E25D90933005AA697 /* Assets.xcassets */,
@@ -69,6 +140,27 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		0A805D9025D90A1D005AA697 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AA0A90C25DB8375004FD9EF /* HealthKit.framework */,
+				0A805D9125D90A1D005AA697 /* WidgetKit.framework */,
+				0A805D9325D90A1D005AA697 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A805D9525D90A1D005AA697 /* Sleep Widget */ = {
+			isa = PBXGroup;
+			children = (
+				0A805D9625D90A1D005AA697 /* SleepWidget.swift */,
+				0A805D9825D90A1D005AA697 /* SleepWidget.intentdefinition */,
+				0A805D9925D90A20005AA697 /* Assets.xcassets */,
+				0A805D9B25D90A20005AA697 /* Info.plist */,
+			);
+			path = "Sleep Widget";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,15 +171,34 @@
 				0A805D7325D90931005AA697 /* Sources */,
 				0A805D7425D90931005AA697 /* Frameworks */,
 				0A805D7525D90931005AA697 /* Resources */,
+				0A805DA125D90A20005AA697 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0A805D9F25D90A20005AA697 /* PBXTargetDependency */,
 			);
 			name = HealthWidgets;
 			productName = HealthWidgets;
 			productReference = 0A805D7725D90931005AA697 /* HealthWidgets.app */;
 			productType = "com.apple.product-type.application";
+		};
+		0A805D8E25D90A1D005AA697 /* SleepWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A805DA425D90A20005AA697 /* Build configuration list for PBXNativeTarget "SleepWidgetExtension" */;
+			buildPhases = (
+				0A805D8B25D90A1D005AA697 /* Sources */,
+				0A805D8C25D90A1D005AA697 /* Frameworks */,
+				0A805D8D25D90A1D005AA697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SleepWidgetExtension;
+			productName = "Sleep WidgetExtension";
+			productReference = 0A805D8F25D90A1D005AA697 /* SleepWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -99,6 +210,9 @@
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					0A805D7625D90931005AA697 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					0A805D8E25D90A1D005AA697 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
@@ -117,6 +231,7 @@
 			projectRoot = "";
 			targets = (
 				0A805D7625D90931005AA697 /* HealthWidgets */,
+				0A805D8E25D90A1D005AA697 /* SleepWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +246,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0A805D8D25D90A1D005AA697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A805D9A25D90A20005AA697 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,12 +261,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AA0A91125DB8402004FD9EF /* SleepHelper.swift in Sources */,
 				0A805D7D25D90931005AA697 /* ContentView.swift in Sources */,
+				0AA0A8F725DB68DD004FD9EF /* SleepDataModel.swift in Sources */,
+				0A805D9D25D90A20005AA697 /* SleepWidget.intentdefinition in Sources */,
 				0A805D7B25D90931005AA697 /* HealthWidgetsApp.swift in Sources */,
+				0AA0A91E25DBA712004FD9EF /* CircularProgress.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A805D8B25D90A1D005AA697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA0A91F25DBA712004FD9EF /* CircularProgress.swift in Sources */,
+				0A805D9C25D90A20005AA697 /* SleepWidget.intentdefinition in Sources */,
+				0AA0A91225DB8402004FD9EF /* SleepHelper.swift in Sources */,
+				0AA0A8F825DB68DD004FD9EF /* SleepDataModel.swift in Sources */,
+				0A805D9725D90A1D005AA697 /* SleepWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A805D9F25D90A20005AA697 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A805D8E25D90A1D005AA697 /* SleepWidgetExtension */;
+			targetProxy = 0A805D9E25D90A20005AA697 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0A805D8425D90933005AA697 /* Debug */ = {
@@ -265,8 +412,10 @@
 		0A805D8725D90933005AA697 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HealthWidgets/HealthWidgets.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HealthWidgets/Preview Content\"";
 				DEVELOPMENT_TEAM = VZ4LX93GR9;
@@ -279,6 +428,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.deltavel.HealthWidgets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,8 +437,10 @@
 		0A805D8825D90933005AA697 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HealthWidgets/HealthWidgets.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HealthWidgets/Preview Content\"";
 				DEVELOPMENT_TEAM = VZ4LX93GR9;
@@ -301,6 +453,53 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.deltavel.HealthWidgets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A805DA225D90A20005AA697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = SleepWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VZ4LX93GR9;
+				INFOPLIST_FILE = "Sleep Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.deltavel.HealthWidgets.SleepWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A805DA325D90A20005AA697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = SleepWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VZ4LX93GR9;
+				INFOPLIST_FILE = "Sleep Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.deltavel.HealthWidgets.SleepWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -323,6 +522,15 @@
 			buildConfigurations = (
 				0A805D8725D90933005AA697 /* Debug */,
 				0A805D8825D90933005AA697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A805DA425D90A20005AA697 /* Build configuration list for PBXNativeTarget "SleepWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A805DA225D90A20005AA697 /* Debug */,
+				0A805DA325D90A20005AA697 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
